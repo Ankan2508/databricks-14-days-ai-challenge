@@ -1,1 +1,33 @@
+# Day 02 – Data Ingestion & Exploration in Databricks
+
+This notebook is part of the **Databricks 14-Day AI Challenge**, focused on building strong foundations in data engineering using Databricks and Apache Spark through hands-on practice.
+
+## 🎯 Objective
+The objective of Day 02 was to ingest structured datasets into Databricks, understand schema handling, and perform exploratory data analysis using PySpark DataFrames and Spark SQL.
+
+## 📘 Topics Covered
+- Loading datasets into Databricks using PySpark
+- Understanding schema inference vs. explicit schema definition
+- Exploring DataFrames using:
+  - `show()`, `count()`, `select()`
+  - `filter()`, `distinct()`
+  - `orderBy()`, `limit()`
+- Performing basic aggregations
+- Understanding Spark’s lazy evaluation model
+- Creating temporary views for SQL analysis
+- Running Spark SQL queries on ingested datasets
+
+## 🧠 Key Learnings
+Through this notebook, I learned:
+- How Databricks efficiently ingests and manages structured data
+- Why schema awareness is critical for performance and correctness
+- The difference between Spark transformations and actions
+- How PySpark and Spark SQL complement each other in analytics workflows
+
+## 🛠 Tools & Technologies
+- Databricks Community Edition
+- Apache Spark (PySpark)
+- Spark SQL
+
+📌 This notebook represents **Day 02 progress** in my Databricks learning journey, guided by **Indian Data Club**, **Codebasics**, and **Databricks**.
 
