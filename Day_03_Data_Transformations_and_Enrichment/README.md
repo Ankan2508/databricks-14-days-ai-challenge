@@ -1,0 +1,32 @@
+# Day 03 – Data Transformations & Enrichment in Databricks
+
+This notebook is part of the **Databricks 14-Day AI Challenge**, focused on strengthening core data engineering skills using Databricks and Apache Spark through hands-on practice.
+
+## 🎯 Objective
+The objective of Day 03 was to perform data transformations and enrich datasets using PySpark DataFrames, preparing raw data for downstream analytics and reporting.
+
+## 📘 Topics Covered
+- Column-level transformations using `withColumn()`
+- Applying conditional logic with `when()` and `otherwise()`
+- Data type casting and formatting
+- Handling null values using:
+  - `dropna()`
+  - `fillna()`
+- Creating derived and calculated columns
+- Renaming and restructuring columns
+- Chaining multiple transformations efficiently
+- Understanding immutability of Spark DataFrames
+
+## 🧠 Key Learnings
+Through this notebook, I learned:
+- How Spark transformations are lazily evaluated
+- Best practices for writing clean and readable transformation pipelines
+- How data enrichment improves analytical usability
+- Why transformation logic should be optimized early in data pipelines
+
+## 🛠 Tools & Technologies
+- Databricks Community Edition
+- Apache Spark (PySpark)
+- Spark SQL
+
+📌 This notebook represents **Day 03 progress** in my Databricks learning journey, guided by **Indian Data Club**, **Codebasics**, and **Databricks**.
