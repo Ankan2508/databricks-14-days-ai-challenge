@@ -8,6 +8,7 @@ This repository documents my daily progress in the Databricks 14-Day AI Challeng
 - Day 03 – Data Transformations & Enrichment in Databricks
 - Day 04 – Delta Lake Introduction
 - Day 05 – Delta Lake Advanced
+- Day 06 – Medallion Architecture
 
 ## 🎯 Goal
 To build strong foundations in data engineering, PySpark, and Databricks through consistent hands-on practice.
