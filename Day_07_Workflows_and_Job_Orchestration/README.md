@@ -1,39 +1,39 @@
-# Day 07 – Workflows & Job Orchestration in Databricks
+# Day 07 – Databricks Jobs & Workflows
 
-This notebook is part of the **Databricks 14-Day AI Challenge**, focused on understanding how to operationalize data pipelines using Databricks workflows and job orchestration.
+This notebook is part of the **Databricks 14-Day AI Challenge**, focused on building production-ready data pipelines using Databricks Jobs and workflow orchestration.
 
 ## 🎯 Objective
-The objective of Day 07 was to learn how to move from individual notebooks to **automated, production-ready workflows** using Databricks Jobs, multi-task pipelines, and scheduling.
+The objective of Day 07 was to understand how **Databricks Jobs differ from notebooks**, and to design and schedule **multi-task workflows** with parameters, dependencies, and error handling.
 
 ## 📘 Topics Covered
-- Difference between Databricks notebooks and Databricks Jobs
+- Databricks Jobs vs interactive notebooks
 - Designing multi-task workflows
-- Parameterizing notebooks using widgets
-- Passing parameters between tasks
+- Passing parameters using Databricks widgets
 - Setting task dependencies (Bronze → Silver → Gold)
-- Scheduling workflows
-- Error handling and retry strategies
+- Scheduling automated job execution
+- Basic error handling and failure management
 
 ## 🧪 Hands-on Tasks
 - Added parameter widgets to notebooks
 - Created a multi-task Databricks Job
 - Orchestrated Bronze → Silver → Gold tasks
-- Configured task dependencies
+- Defined task dependencies between layers
 - Scheduled workflow execution
-- Observed error handling behavior in workflows
+- Observed error behavior and retry mechanisms
 
 ## 🧠 Key Learnings
 Through this exercise, I learned:
-- How Databricks Jobs enable pipeline automation
-- The importance of task dependencies in workflow orchestration
-- How parameterization makes pipelines reusable
-- How scheduling and retries support reliable data operations
-- How orchestration connects engineering logic with business SLAs
+- How Databricks Jobs enable automated, repeatable pipelines
+- Why separating development notebooks from production jobs matters
+- How parameters make workflows reusable and dynamic
+- The importance of dependencies and error handling in orchestration
+- How Databricks simplifies workflow scheduling
 
 ## 🛠 Tools & Technologies
 - Databricks Community Edition
-- Databricks Workflows (Jobs)
 - Apache Spark (PySpark)
 - Delta Lake
+- Databricks Jobs
+- Spark SQL
 
 📌 This notebook represents **Day 07 progress** in my Databricks learning journey, guided by **Indian Data Club**, **Codebasics**, and **Databricks**.
